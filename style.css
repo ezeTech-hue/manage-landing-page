@@ -14,7 +14,7 @@ font-weight: 400;
 height: 100vh;
 background-image: url('./images/bg-tablet-pattern.svg'), url('./images/bg-tablet-pattern.svg');
 background-repeat: no-repeat, no-repeat;
-background-position: -25rem 300px, calc(100% - -200px) -20em; 
+background-position: -25rem 300px, calc(100% - -250px) -13em; 
 background-size: 700px 700px, 700px 700px;
 }
 
@@ -28,6 +28,100 @@ img {
     height: 100%;
 }
 
+.hero-top {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+}
+
 .hero-top figure {
+    position: absolute;
     width: 180px;
+}
+
+.hero-top .list {
+    justify-content: space-between;
+    gap: 3rem; 
+    right: 30%;
+    display: flex;
+}
+
+.hero-top .list a {
+    color: hsl(233, 12%, 13%);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hero-top .list a:hover {
+    color: hsl(12, 16%, 69%);
+    transition: all 0.6s;
+}
+
+.hero-top .list a:active {
+    color: hsl(12, 16%, 69%);
+    text-decoration: underline;
+}
+
+.hero-top .get button {
+    position: absolute;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    text-align: center;
+    right: 0;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: -0.5rem;
+    background-color: hsl(12, 88%, 59%);
+    font-size: 16px;
+    color: hsl(13, 100%, 96%);
+    box-shadow: 0 0 2px rgb(216, 35, 35);
+    letter-spacing: 0.5px;
+}
+
+.hero-top .get button:hover {
+    transition: all 0.8s;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(12, 77%, 63%);
+}
+
+.hero-top .get button:active {
+    transition: all 0.3s;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(12, 77%, 63%);
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 800px) {
+    .hero-top .list {
+        display: none;
+    }
+    .hero-top .get button {
+        display: none;
+    }
+    .hero-content1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.hero-content1 {
+    margin-left: 3rem;
+    margin-right: 3rem; 
+    display: flex;
+    gap: 3rem;
+    margin-top: 6rem;
+}
+
+.illustration figure img {
+    object-fit: contain;
+}
+
+.hero-content1 .bring hgroup h1 {
+    
 }
