@@ -14,8 +14,7 @@ font-weight: 400;
 height: 100vh;
 background-image: url('./images/bg-tablet-pattern.svg'), url('./images/bg-tablet-pattern.svg');
 background-repeat: no-repeat, no-repeat;
-background-position: -25rem 300px, calc(100% - -250px) -13em; 
-background-size: 700px 700px, 700px 700px;
+background-position: -30rem 950px, calc(100% - -250px) -13em; 
 }
 
 figure {
@@ -32,8 +31,8 @@ img {
     display: flex;
     position: relative;
     justify-content: space-between;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     margin-top: 2rem;
 }
 
@@ -66,6 +65,7 @@ img {
 }
 
 .hero-top .get button {
+    cursor: pointer;
     position: absolute;
     border: none;
     outline: none;
@@ -97,6 +97,8 @@ img {
     transform: scale(0.9);
 }
 
+/* RESPONSIVE SECTION */
+
 @media screen and (max-width: 800px) {
     .hero-top .list {
         display: none;
@@ -105,23 +107,148 @@ img {
         display: none;
     }
     .hero-content1 {
+        text-align: center;
         display: flex;
         flex-direction: column;
+        flex-flow: column-reverse;
     }
+    .hero-content1 .bring {
+        align-items: center;
+        text-align: center;
+}
+.hero-content1 .bring hgroup h1 {
+        text-align: center;
+        align-items: center;
+}
+
+.hero-content1 .bring hgroup {
+        text-align: center;
+        align-items: center;
+}
+
+.hero-content2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.all-about {
+    display: flex;
+    flex-direction: column;
+}
+
+
 }
 
 .hero-content1 {
-    margin-left: 3rem;
-    margin-right: 3rem; 
+    position: relative;
+    margin-left: 4rem;
+    margin-right: 4rem; 
     display: flex;
-    gap: 3rem;
+    gap: 9rem;
     margin-top: 6rem;
 }
 
 .illustration figure img {
-    object-fit: contain;
+    object-fit: cover;
+}
+
+.hero-content1 .bring {
+    margin-top: 3rem;
 }
 
 .hero-content1 .bring hgroup h1 {
-    
+    font-size: 45px;
+    font-weight: 600;
+    max-width: 500px;
+}
+
+.hero-content1 .bring hgroup p {
+    color: hsl(11, 5%, 56%);
+    margin-top: 1.5rem;
+    max-width: 350px;
+    line-height: 1.4;
+}
+
+.hero-content1 .bring button {
+    cursor: pointer;
+    position: absolute;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    text-align: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: hsl(12, 88%, 59%);
+    font-size: 16px;
+    color: hsl(13, 100%, 96%);
+    box-shadow: 0 0 2px rgb(216, 35, 35);
+    letter-spacing: 0.5px;
+    margin-top: 2rem;
+}
+
+.hero-content1 .bring button:hover {
+    transition: all 0.8s;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(12, 77%, 63%);
+}
+
+.hero-content1 .bring button:active {
+    transition: all 0.3s;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(12, 77%, 63%);
+    transform: scale(0.9);
+}
+
+.hero-content2 {
+    position: relative;
+    display: flex;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    gap: 18em;
+}
+
+.hero-content2 .different hgroup h1 {
+    max-width: 390px;
+}
+
+.hero-content2 .different hgroup p {
+    color: hsl(11, 5%, 56%);
+    margin-top: 1.5rem;
+    max-width: 350px;
+    line-height: 1.4;
+}
+
+.all-about {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 550px;
+}
+
+.all-about .features {
+    display: flex;
+    gap: 1rem;
+}
+
+.features h4 {
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(12, 88%, 59%);
+    text-align: center;
+    height: max-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    border-radius: 16px;
+}
+
+.features hgroup p {
+    margin-top: 1rem;
+    color: hsl(11, 5%, 56%);
+    line-height: 1.4;
+    max-width: 450px;
 }
