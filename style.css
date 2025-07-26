@@ -9,12 +9,12 @@
 }
 
 body {
-font-family: "Be Vietnam Pro", sans-serif;
-font-weight: 400;
-height: 100vh;
-background-image: url('./images/bg-tablet-pattern.svg'), url('./images/bg-tablet-pattern.svg');
-background-repeat: no-repeat, no-repeat;
-background-position: -30rem 950px, calc(100% - -250px) -13em; 
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    background-image: url('./images/bg-tablet-pattern.svg'), url('./images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: -30rem 950px, calc(100% - -250px) -13em; 
 }
 
 figure {
@@ -87,13 +87,13 @@ img {
 .hero-top .get button:hover {
     transition: all 0.8s;
     color: hsl(0, 0%, 98%);
-    background-color: hsl(12, 77%, 63%);
+    background-color: hsl(12, 71%, 66%);
 }
 
 .hero-top .get button:active {
     transition: all 0.3s;
     color: hsl(0, 0%, 98%);
-    background-color: hsl(12, 77%, 63%);
+    background-color: hsl(12, 71%, 66%);
     transform: scale(0.9);
 }
 
@@ -111,34 +111,24 @@ img {
         display: flex;
         flex-direction: column;
         flex-flow: column-reverse;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        gap: 2rem;
     }
-    .hero-content1 .bring {
-        align-items: center;
-        text-align: center;
-}
-.hero-content1 .bring hgroup h1 {
-        text-align: center;
-        align-items: center;
-}
 
-.hero-content1 .bring hgroup {
-        text-align: center;
-        align-items: center;
-}
-
-.hero-content2 {
+    .hero-content2 {
     position: relative;
     display: flex;
     flex-direction: column;
 }
 
-.all-about {
+    .all-about {
     display: flex;
     flex-direction: column;
 }
-
-
 }
+
+
 
 .hero-content1 {
     position: relative;
@@ -192,13 +182,13 @@ img {
 .hero-content1 .bring button:hover {
     transition: all 0.8s;
     color: hsl(0, 0%, 98%);
-    background-color: hsl(12, 77%, 63%);
+    background-color: hsl(12, 71%, 66%);
 }
 
 .hero-content1 .bring button:active {
     transition: all 0.3s;
     color: hsl(0, 0%, 98%);
-    background-color: hsl(12, 77%, 63%);
+    background-color: hsl(12, 71%, 66%);
     transform: scale(0.9);
 }
 
