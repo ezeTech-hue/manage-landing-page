@@ -218,7 +218,12 @@ img {
 
 /* RESPONSIVE SECTION */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 650px) {
+
+    .hero-content2 .all-about {
+    max-width: none;
+}
+
     .features .headline h4 {
         left: 0;
     }
@@ -249,8 +254,8 @@ img {
      display: flex;
      flex-direction: column;
      flex-flow: column-reverse;
-     margin-left: 5rem;
-     margin-right: 5rem; 
+     margin-left: 1rem;
+     margin-right: 1rem; 
      text-align: center;
      align-items: center;
      gap: 1rem;
@@ -262,6 +267,8 @@ img {
         text-align: center;
         align-items: center;
         max-width: none;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     .hero-content2 {
         display: flex;
@@ -282,14 +289,4 @@ img {
         max-width: none;
     }
 
-} 
-
-@media screen and (max-width: 425px) {
-    .features hgroup h3 {
-        font-size: 18px;
-        margin-left: rem;
-    }
-    .features h4 {
-        left: 2rem;
-    }
-}
+}  
