@@ -291,6 +291,7 @@ p {
         position: relative;
         text-align: center;
         align-items: center;
+        border-radius: 20px 0px 0px 20px;
         margin-left: 1rem;
         background-color: hsl(11, 62%, 90%);
         
@@ -301,7 +302,7 @@ p {
         border-radius: 20px;
         padding-top: 6px;
         padding-bottom: 6px;
-    }
+    } 
 
     .features .headline h3 {
         margin-left: 0;
