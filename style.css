@@ -286,11 +286,30 @@ p {
      .hero-content2 .all-about {
         max-width: none;
 }
+
+    .features .headline {
+        position: relative;
+        text-align: center;
+        align-items: center;
+        margin-left: 1rem;
+        background-color: hsl(11, 62%, 90%);
+        
+    }
+
     .features .headline h4 {
         left: 0;
+        border-radius: 18px;
+        padding-top: 6px;
+        padding-bottom: 6px;
     }
+
     .features .headline h3 {
         margin-left: 0;
+        padding-left: 1rem;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-size: 15px;
+        text-align: center;
 }
 
     .features p {
