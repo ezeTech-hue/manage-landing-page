@@ -272,9 +272,10 @@ p {
 
     .hero-content2 .different hgroup h1 {
         max-width: none;
+        position: relative;
         text-align: center;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 3rem;
+        margin-right: 3rem;
 }
     .hero-content2 .different hgroup p {
         max-width: none;
