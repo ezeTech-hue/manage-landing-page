@@ -225,9 +225,16 @@ p {
     body {
         background-image: none;
     }
+
+    .hero-top figure {
+    position: absolute;
+    width: 120px;
+}
+
+
     .hero-top {
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     .hero-top .list {
         display: none;
