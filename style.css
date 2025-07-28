@@ -258,10 +258,16 @@ img {
      margin-right: 1rem; 
      text-align: center;
      align-items: center;
-     gap: 1rem;
+     
+    }
+
+    .hero-content1 .bring {
+        margin-top: 0;
     }
     .hero-content1 .bring hgroup h1 {
         max-width: none;
+        font-weight: 500;
+        font-size: 35px;
     }
     .hero-content1 .bring hgroup p {
         text-align: center;
