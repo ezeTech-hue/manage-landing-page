@@ -272,7 +272,7 @@ img {
     .hero-content1 .bring hgroup p {
         text-align: center;
         align-items: center;
-        max-width: none;
+        max-width: 450px;
         margin-right: 20px;
         margin-left: 20px;
     }
