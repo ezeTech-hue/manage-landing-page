@@ -14,8 +14,8 @@ body {
     height: 100vh;
     background-image: url('./images/bg-tablet-pattern.svg'), url('./images/bg-tablet-pattern.svg');
     background-repeat: no-repeat, no-repeat;
-    background-position: -19rem 990px, calc(100% - -250px) -13em; 
-    background-size: 550px 550px, 800px 800px;
+    background-position: -18rem 990px, calc(100% - -250px) -13em; 
+    background-size: 500px 500px, 800px 800px;
 }
 
 figure {
