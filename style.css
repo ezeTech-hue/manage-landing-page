@@ -14,7 +14,8 @@ body {
     height: 100vh;
     background-image: url('./images/bg-tablet-pattern.svg'), url('./images/bg-tablet-pattern.svg');
     background-repeat: no-repeat, no-repeat;
-    background-position: -30rem 950px, calc(100% - -250px) -13em; 
+    background-position: -19rem 930px, calc(100% - -250px) -13em; 
+    background-size: 550px 550px, 800px 800px;
 }
 
 figure {
@@ -89,7 +90,7 @@ p {
     background-color: hsl(12, 88%, 59%);
     font-size: 16px;
     color: hsl(13, 100%, 96%);
-    box-shadow: 0px 2px 2px 0px hsl(12, 82%, 64%);
+    box-shadow: 0px 4px 4px 0px hsl(10, 84%, 75%);
     letter-spacing: 0.5px;
 }
 
@@ -149,7 +150,7 @@ p {
     background-color: hsl(12, 88%, 59%);
     font-size: 16px;
     color: hsl(13, 100%, 96%);
-    box-shadow: 0px 2px 2px 0px hsl(12, 82%, 64%);
+    box-shadow: 0px 4px 4px 0px hsl(10, 84%, 75%);
     letter-spacing: 0.5px;
     margin-top: 2rem;
 }
@@ -230,8 +231,8 @@ p {
         height: 100vh;
         background-image: url('./images/bg-tablet-pattern.svg'), url('./images/bg-tablet-pattern.svg');
         background-repeat: no-repeat, no-repeat;
-        background-position: calc(100% - -250px) 550px, calc(100% - -350px) -15em;
-        background-size: 400px 400px, 600px 600px;
+        background-position: calc(100% - -380px) 400px, calc(100% - -390px) -15em;
+        background-size: 500px 500px, 650px 650px;
     }
 
     .hero-top figure {
@@ -285,6 +286,10 @@ p {
         gap: 3em;
     }
 
+    .hero-content2 .different {
+        margin-top: -3rem;
+    }
+
     .hero-content2 .different hgroup h1 {
         max-width: none;
         position: relative;
@@ -300,34 +305,34 @@ p {
 }
 
     .hero-content1 .bring button {
-    cursor: pointer;
-    border: none;
-    outline: none;
-    border-radius: 25px;
-    text-align: center;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: hsl(12, 88%, 59%);
-    font-size: 18px;
-    color: hsl(13, 100%, 96%);
-    box-shadow: 0px 2px 2px 0px hsl(12, 82%, 64%);
-    letter-spacing: 0.5px;
-    margin-top: 2rem;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        border-radius: 25px;
+        text-align: center;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: hsl(12, 88%, 59%);
+        font-size: 18px;
+        color: hsl(13, 100%, 96%);
+        box-shadow: 0px 4px 4px 0px hsl(10, 84%, 75%);
+        letter-spacing: 0.5px;
+        margin-top: 2rem;
 }
 
 .hero-content1 .bring button:hover {
-    transition: all 0.8s;
-    color: hsl(0, 0%, 98%);
-    background-color: hsl(12, 71%, 66%);
+        transition: all 0.8s;
+        color: hsl(0, 0%, 98%);
+        background-color: hsl(12, 71%, 66%);
 }
 
 .hero-content1 .bring button:active {
-    transition: all 0.3s;
-    color: hsl(0, 0%, 98%);
-    background-color: hsl(12, 71%, 66%);
-    transform: scale(0.9);
+        transition: all 0.3s;
+        color: hsl(0, 0%, 98%);
+        background-color: hsl(12, 71%, 66%);
+        transform: scale(0.9);
 }
 
 
@@ -366,6 +371,5 @@ p {
         margin-right: 1rem;
         margin-top: 10px;
 }
-
 
 }  
