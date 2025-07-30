@@ -28,7 +28,8 @@ img {
     height: 100%;
 }
 
-h1, h3 {
+h1,
+h3 {
     color: hsl(228, 39%, 23%);
 }
 
@@ -59,7 +60,7 @@ p {
 }
 
 .hero-top .list a {
-    color: hsl(233, 12%, 13%);
+    color: hsl(228, 39%, 23%);
     font-weight: 500;
     cursor: pointer;
 }
@@ -222,6 +223,36 @@ p {
     color: hsl(11, 5%, 56%);
 }
 
+.autoslider {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.autoslider .slider {
+    display: flex;
+}
+
+
+.testimonials figure {
+    width: 80px;
+}
+
+.testimonials {
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+
+
+
+
+
+
+
 
 /* RESPONSIVE SECTION */
 
@@ -346,7 +377,7 @@ p {
         align-items: center;
         border-radius: 20px 0px 0px 20px;
         margin-left: 1rem;
-        background-color: hsl(11, 62%, 90%);
+        background-color: hsl(13, 100%, 96%);
         
     }
 
