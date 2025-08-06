@@ -413,9 +413,45 @@ p {
 
 }  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 320px) {
     .features .headline h3 {
         padding-left: 5px;
         font-size: 14px;
     }
+    .hero-content2 .different hgroup h1 {
+        max-width: none;
+        position: relative;
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+}
 }
