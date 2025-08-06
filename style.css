@@ -14,8 +14,8 @@ body {
     height: 100vh;
     background-image: url('./images/bg-tablet-pattern.svg'), url('./images/bg-tablet-pattern.svg');
     background-repeat: no-repeat, no-repeat;
-    background-position: -18rem 990px, calc(100% - -250px) -13em; 
-    background-size: 500px 500px, 800px 800px;
+    background-position: -27rem 950px, calc(100% - -250px) -13em; 
+    background-size: 700px 700px, 800px 800px;
 }
 
 figure {
@@ -227,31 +227,39 @@ p {
     position: relative;
     text-align: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 4.5rem;
 }
 
 .autoslider .slider {
     display: flex;
+    margin-top: 5rem;
 }
 
-
 .testimonials figure {
-    width: 80px;
+    width: 75px;
+    margin-top: -40px;
+    position: absolute;
+}
+
+.testimonials h3 {
+    margin-top: 55px;
+}
+
+.testimonials p {
+    color: hsl(11, 5%, 56%);
+    margin-top: 10px;
 }
 
 .testimonials {
     position: relative;
+    place-items: center; 
     margin: 10px;
-    padding: 10px;
-    background-color: hsl(0, 0%, 98%);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    background-color: hsl(0, 22%, 96%);
 }
-
-
-
-
-
-
-
 
 
 /* RESPONSIVE SECTION */
@@ -404,3 +412,10 @@ p {
 }
 
 }  
+
+@media screen and (max-width: 320px) {
+    .features .headline h3 {
+        padding-left: 5px;
+        font-size: 14px;
+    }
+}
