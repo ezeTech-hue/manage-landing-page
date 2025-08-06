@@ -305,7 +305,8 @@ p {
         margin-top: 0;
     }
     .hero-content1 .bring hgroup h1 {
-        max-width: none;
+        margin-left: 1rem;
+        margin-right: 1rem;
         font-weight: 550;
         font-size: 35px;
     }
