@@ -251,6 +251,7 @@ p {
 .testimonials p {
     color: hsl(11, 5%, 56%);
     margin-top: 10px;
+    font-size: 15px;
 }
 
 .testimonials {
