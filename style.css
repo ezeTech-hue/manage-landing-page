@@ -35,7 +35,7 @@ h3 {
 }
 
 p {
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.6;
 }
 
@@ -440,6 +440,7 @@ p {
         margin-left: 1rem;
         margin-right: 1rem;
         margin-top: 10px;
+        font-size: 15px;
 }
 
 }  
