@@ -128,9 +128,8 @@ p {
 }
 
 .hero-content1 .bring hgroup h1 {
-    font-size: 45px;
+    font-size: 45px; 
     font-weight: 600;
-    max-width: 500px;
 }
 
 .hero-content1 .bring hgroup p {
@@ -235,6 +234,8 @@ p {
 .autoslider .slider {
     display: flex;
     margin-top: 5rem;
+    align-items: center;
+    text-align: center;
 }
 
 .testimonials figure {
@@ -257,9 +258,9 @@ p {
     position: relative;
     place-items: center; 
     margin: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
     border-radius: 5px;
     background-color: hsl(0, 22%, 96%);
 }
@@ -325,22 +326,18 @@ p {
         margin-right: 0.5rem; 
         text-align: center;
         align-items: center;
-     
     }
 
     .hero-content1 .bring {
-        margin-top: 0;
+        margin-top: 10px;
     }
     .hero-content1 .bring hgroup h1 {
-        margin-left: 1rem;
-        margin-right: 1rem;
         font-weight: 550;
         font-size: 35px;
     }
     .hero-content1 .bring hgroup p {
         text-align: center;
         align-items: center;
-        max-width: none;
         margin-right: 37px;
         margin-left: 37px;
     }
@@ -388,7 +385,7 @@ p {
     }
 
     .hero-content2 .different {
-        margin-top: -3rem;
+        margin-top: -2rem; 
     }
 
     .hero-content2 .different hgroup h1 {
@@ -399,8 +396,8 @@ p {
         margin-right: 3rem;
 }
     .hero-content2 .different hgroup p {
-        max-width: none;
         text-align: center;
+        align-items: center;
         margin-left: 24px;
         margin-right: 24px;
 }
@@ -475,6 +472,16 @@ p {
 
 
 @media screen and (max-width: 320px) {
+    .hero-content1 .bring hgroup h1 {
+        font-size: 30px;
+    }
+    .hero-content1 .bring hgroup p {
+        text-align: center;
+        align-items: center;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
     .features .headline h3 {
         padding-left: 5px;
         font-size: 14px;
@@ -485,5 +492,11 @@ p {
         text-align: center;
         margin-left: 1rem;
         margin-right: 1rem;
+}
+.hero-content2 .different hgroup p {
+        text-align: center;
+        align-items: center;
+        margin-left: 15px;
+        margin-right: 15px;
 }
 }
