@@ -90,9 +90,9 @@ p {
     margin-top: -0.5rem;
     background-color: hsl(12, 88%, 59%);
     font-size: 17px;
+    font-weight: bold;
     color: hsl(13, 100%, 96%);
     box-shadow: 0px 3px 3px 0px hsl(10, 84%, 75%);
-    letter-spacing: 0.5px;
 }
 
 .hero-top .get button:hover {
@@ -104,9 +104,8 @@ p {
 .hero-top .get button:active {
     transition: all 0.1s;
     color: hsl(0, 0%, 98%);
-    font-size: 16px;
     background-color: hsl(12, 71%, 66%);
-    transform: scale(0.9);
+    transform: scale(0.9); 
 }
 
 
@@ -150,9 +149,9 @@ p {
     padding-bottom: 12px;
     background-color: hsl(12, 88%, 59%);
     font-size: 17px;
+    font-weight: bold;
     color: hsl(13, 100%, 96%);
     box-shadow: 0px 3px 3px 0px hsl(10, 84%, 75%);
-    letter-spacing: 0.5px;
     margin-top: 2rem;
 }
 
@@ -165,9 +164,8 @@ p {
 .hero-content1 .bring button:active {
     transition: all 0.1s;
     color: hsl(0, 0%, 98%);
-    font-size: 16px;
     background-color: hsl(12, 71%, 66%);
-    transform: scale(0.9);
+    transform: scale(0.9);  
 }
 
 .hero-content2 {
@@ -298,8 +296,8 @@ p {
         height: 100vh;
         background-image: url('./images/bg-tablet-pattern.svg'), url('./images/bg-tablet-pattern.svg');
         background-repeat: no-repeat, no-repeat;
-        background-position: calc(100% - -380px) 400px, calc(100% - -270px) -12em;
-        background-size: 500px 500px, 525px 600px;
+        background-position: calc(100% - -265px) 490px, calc(100% - -270px) -12em;
+        background-size: 400px 400px, 525px 600px;
     }
 
     .hero-top figure {
@@ -319,6 +317,7 @@ p {
         display: none;
     }
     .hero-content1 {
+        position: relative;
         display: flex;
         flex-direction: column;
         flex-flow: column-reverse;
@@ -348,15 +347,16 @@ p {
         outline: none;
         border-radius: 25px;
         text-align: center;
-        padding-left: 5rem;
-        padding-right: 5rem;
+        align-items: center;
+        padding-left: 4rem;
+        padding-right: 4rem;
         padding-top: 13px;
         padding-bottom: 13px;
         background-color: hsl(12, 88%, 59%);
         font-size: 20px;
+        font-weight: bold;
         color: hsl(13, 100%, 96%);
         box-shadow: 0px 3px 3px 0px hsl(10, 84%, 75%);
-        letter-spacing: 0.5px;
         margin-top: 2rem;
 }
 
@@ -369,18 +369,18 @@ p {
 .hero-content1 .bring button:active {
         transition: all 0.1s;
         color: hsl(0, 0%, 98%);
-        font-size: 19px;
+        transform: none;
         background-color: hsl(12, 71%, 66%);
-        transform: scale(0.9);
-}
+} 
 
 
     .hero-content2 {
+        position: relative;
         display: flex;
         flex-direction: column;
         margin-left: 0;
         margin-right: 0; 
-        margin-top: 12em;
+        margin-top: 8em;
         gap: 3em;
     }
 
@@ -396,10 +396,11 @@ p {
         margin-right: 3rem;
 }
     .hero-content2 .different hgroup p {
+        max-width: none;
         text-align: center;
         align-items: center;
-        margin-left: 24px;
-        margin-right: 24px;
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
 }
 
 
@@ -496,7 +497,7 @@ p {
 .hero-content2 .different hgroup p {
         text-align: center;
         align-items: center;
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 32px;
+        margin-right: 32px;
 }
 }
