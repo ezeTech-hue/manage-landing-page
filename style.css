@@ -298,7 +298,7 @@ p {
         height: 100vh;
         background-image: url('./images/bg-tablet-pattern.svg'), url('./images/bg-tablet-pattern.svg');
         background-repeat: no-repeat, no-repeat;
-        background-position: calc(100% - -380px) 400px, calc(100% - -270px) -15em;
+        background-position: calc(100% - -380px) 400px, calc(100% - -270px) -12em;
         background-size: 500px 500px, 525px 600px;
     }
 
